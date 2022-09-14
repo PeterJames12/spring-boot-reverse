@@ -17,6 +17,6 @@ public class ReverseController {
 
     @GetMapping
     public ResponseEntity<String> getReverse(@RequestParam String text) {
-        return ResponseEntity.ok(reverseService.getReverse(text));
+        return ResponseEntity.ok(reverseService.reverse(text));
     }
 }

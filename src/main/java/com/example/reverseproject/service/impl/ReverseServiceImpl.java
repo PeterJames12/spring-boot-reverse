@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class ReverseServiceImpl implements ReverseService {
 
     @Override
-    public String getReverse(String text) {
+    public String reverse(String text) {
         if (text == null) {
             return null;
         }
